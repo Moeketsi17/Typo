@@ -13,8 +13,58 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(31, 31, 31);
 }
+
+.name {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(60,60, 60);
+    height: 10vh;
+    padding: 5px 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.container p {
+    padding: 3vh 0 ;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 0 0 3vh ;
+    font-size: 50px;
+}
+
+
+#word-input {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.time-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0 0;
+
+}
+
+
+
+
+
+
+
 
 
 
