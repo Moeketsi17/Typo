@@ -59,7 +59,6 @@ const words = [
 
 
 // initialize game
-
 function init() {
     // show number of seconds in UI
     seconds.innerHTML = currentLevel;
