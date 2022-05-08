@@ -63,8 +63,13 @@ function init() {
 
 function startMatch() {
     if (matchWords()) {
-        console.log('great')
+        isPlaying = true;
+        time = 6;
+        showWord(words);
+        wordInput.value = '';
+        score++;
     }
+    scoreDisplay.innerHTML = score;
 }
 
 // match currentword to wordInput'
@@ -101,7 +106,8 @@ function countdown() {
 
 function checkStatus() {
     if (!isPlaying && time === 0) {
-        message.innerHTML = 'Game over! ! !'
+        message.innerHTML = 'Game over! ! !';
+        score = -1;
     }
 }
 
