@@ -1,3 +1,6 @@
+window.addEventListener('load', init)
+
+
 let time = 5;
 let score = 0;
 let isPlaying;
@@ -48,24 +51,14 @@ const words = [
 // initialize game
 
 function init() {
-    console.log(init)
+    // load word from array
+    showWord(words);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// pick and show random word
+function showWord(words) {
+    // generate random array index
+    const randomIndex = Math.floor(Math.random() * words.length);
+    // output current word
+    currentWord.innerHTML = words[randomIndex]
+}
