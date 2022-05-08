@@ -52,6 +52,12 @@ body {
     font-size: 18px;
 }
 
+#message {
+    text-align: center;
+    padding: 10px 0 ;
+    font-size: 18px;
+}
+
 
 .time-container {
     display: flex;
